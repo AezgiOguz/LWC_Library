@@ -1,6 +1,4 @@
-import { LightningElement } from 'lwc';
-
-export default class AccountMap extends LightningElement {
+export default class LightningMapExample extends LightningElement {
     mapMarkers = [
         {
             location: {
@@ -17,5 +15,4 @@ export default class AccountMap extends LightningElement {
             icon: 'standard:account',
         },
     ];
-
 }
